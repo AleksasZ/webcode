@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>try one</title>
+    <style>
+
+/* this is my panel to move from one page to another */
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.thead {
+  background: LightSkyBlue;
+}
+.tbody {
+background: lightcyan;
+}
+
+progress {
+
+  width:100%;
+  height:30px;
+
+
+}
+
+</style>
+
+  </head>
+
+    <body>
+
+     
+<ul class="ul">
+  <li class="li"><a href="index.html">Home</a></li>
+  <li class="li"><a href="profile.html">About me</a></li>
+  <li class="li"><a class="active" href="dashboard.html">Dashboard</a></li>
+  <li class="li"><a href="faq.html">FAQ</a></li>
+</ul>    
+
+<h2>The Study Monitor </h2>
+
+<table style="width:100%">
+  <thead>
+    <tr class="thead">
+      <th scope="col">Quartline</th>
+      <th scope="col">Course</th>
+      <th scope="col">EC</th>
+      <th scope="col">Exam</th>
+      <th scope="col">Grade</th>
+    </tr>
+  </thead>
+  <tbody class="tbody">
+    <tr>
+      <th scope="row" rowspan="3">1</th>
+      <td>Programme and Career Orientation</td>
+      <td>2.5</td>
+      <td>Assessment</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Computer Science Basics</td>
+      <td>7,5</td>
+      <td>Written</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Programming Basics</td>
+      <td>5</td>
+      <td>Case study</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="3">2</th>
+      <td rowspan="2">Object Oriented Programming</td>
+      <td rowspan="2">10</td>
+      <td>Case study</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Project</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Professional Skills 1</td>
+      <td>2.5</td>
+      <td>Portfolio</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="5">3</th>
+      <td>Framework Project 1</td>
+      <td>5</td>
+      <td>2 Portfolio exams</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Framework Development 1</td>
+      <td>5</td>
+      <td>Case study</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Professional Working Enviroment</td>
+      <td>2.5</td>
+      <td>Assessment</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Professional Skills 2</td>
+      <td rowspan=2>2.5</td>
+      <td>Portfolio exam</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>2 Written exams</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <th scope="row" rowspan="4">4</th>
+      <td>Framework Project 2</td>
+      <td>5</td>
+      <td>Portfolio exam</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>Framework Development 2</td>
+      <td>5</td>
+      <td>Portfolio exam</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Professional Skills 3</td>
+      <td rowspan="2">2.5</td>
+      <td>Portfolio exam</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>2 Written exams</td>
+      <td>NULL</td>
+    </tr>
+  </table>
+  </tbody>
+  <hr>
+  <h2>The Study Guide</h2>
+  <h4>Here are few relevant links which will help to maintain a clear overview of your study</h4>
+
+    <ul>
+      <li>The HZ Course and Examination Regulations (CER) <a href="https://hz.nl/en/about-hz/rules-and-regulations" target="_blank"> click here.</a></li>
+      <li>The Implementation Regulations (IR) of the HBO-ICT programme <a href="https://hz.nl/uploads/documents/Regelingen/NL/Uitvoeringsregeling-OER-HBO-ICT-Voltijd-2019-2020.pdf" target="_blank"> click here.</a></li>
+      <li>The Learn environment <a href="https://learn.hz.nl/my/" target="_blank">click here</a></li>
+      <li>The Teams environment of the study programme <a href="https://teams.microsoft.com/_?culture=en-us&country=US&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/Bendrasis?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel" target="_blank"> click here.</a></li>
+      <li>The page in MyHZ with your study progress <a href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank"> click here.</a></li>
+      <li>The Github environment of the study programme <a href="https://pages.github.com/" target="_blank"> click here.</a></li>
+    </ul>
+<hr>
+    <h3>Progress bar</h3>
+    <progress max="60" value="1" ></progress>
+    <ul>
+      <li>Each student needs to have at least 45 EC's to pass the academic year. Otherwise, the student get NBSA.</li>
+      <li>Each student gets propedeuse when reach 60 EC's. This can happen in Year 1. If not then in Year 2.</li>
+    </ul>
+</body>
+
+
+</html>

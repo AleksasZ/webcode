@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>try one</title>
+    <style>
+
+body{
+background-image: url("https://img5.goodfon.com/wallpaper/nbig/3/9c/gorod-vilnius-lietuva-2.jpg");
+background-size: 100%;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+ul{
+    color: white;
+    font-size: 20px;
+}
+.profP {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  border-radius: 50%;
+}
+
+.country{
+  position: absolute;
+  top: 310px;
+  right: 10px;
+  width: 250px;
+}
+
+
+/* this is my panel to move from one page to another */
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.li {
+  float: left;
+}
+
+.li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ 
+
+
+
+</style>
+
+  </head>
+
+    <body>
+
+
+<ul class="ul">
+  <li class="li"><a href="index.html">Home</a></li>
+  <li class="li"><a class="active" href="profile.html">About me</a></li>
+  <li class="li"><a href="dashboard.html">Dashboard</a></li>
+  <li class="li"><a href="faq.html">FAQ</a></li>
+</ul>    
+<br />
+<img src="data:image/jpeg;base64,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" class="profP"/>
+<p>Hey! My name is Aleksas Zukauskas but I find Alex a bit easier abroad, I am 22 years old (Boomer I know right?) and I am from Lithuania, to be more specific Vilnius. <br>
+  No it is not part of Russia (it was for a short period of time) and no we are not slavs.</p>
+  <a href="https://en.wikipedia.org/wiki/Lithuania"target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/320px-Flag_of_Lithuania.svg.png" alt="Lithuania." class="country"></a>
+<p>I am a shy person, well at least I used to be.. Kinda like lone wolf but when I get comfortable with group of people I am actualy quite a cool guy. Even though <br>
+  I was part of few commercials and the main actor in one +/-24 minutes movie (<a href="http://www.lfc.lt/lt/Page=MovieList&ID=3885&GenreID=457"target="_blank">nothing special</a>) when I was a kid. In short words I am supportive, friendly, always <br> 
+  glad to help and I usualy put people I care about in front of myself. This is the reason why at this age I am first year student</p>    
+<br />
+    
+    <br />
+    <h3>My hobies</h3>
+    <ul>		
+      <li>Driving. I love driving cars, does not matter if it is 50km ride or 500km+. Road trips are best trips in my opinion.Another goal is to get a motorcycle licence!</li>
+      <li>Traveling. As long as I remember I always dreamed about traveling all over the world, not much has canged, only now I realised I need to have money aswell.<br> 
+        So far it has been few countries from the start Belarus, Norway, Sweden, Romania, Poland, Latvia and now I can add Netherlands to the list. </li>
+      <li>Hanging out/spending time with friends. What is the point of enjoying your life if you have none to share it with. Fun or sad times are better as long you are not alone.</li>
+      <li>Trying out new things. I am curious and opened to all ideas, as long as they are mostly leagal.</li>
+      <li>Playing video games.</li>
+    </ol>
+
+</body>
+
+
+</html>
